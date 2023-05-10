@@ -1,0 +1,35 @@
+.body {
+ height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+cursor: url(../img/aim.png), default;
+}
+
+.table {
+    width: 90%;
+    border-radius: 15px;
+    border-bottom: 20px solid #554444;
+    display: flex;
+    justify-content: space-around;
+    height: 122px;
+ 
+}
+
+.target {
+    width: 80px;
+    height: 105px;
+    background: url(../img/pngwing.com.png) center bottom/80px auto no-repeat;
+    padding: 25px 25px 0px;
+    transform-origin: 50% bottom;
+    transition:.4s;
+    
+}
+.die {
+    transform: rotateX(85deg);
+   }
+.count{
+    text-align: center;
+    margin-bottom: 100px;
+}
